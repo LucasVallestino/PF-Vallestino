@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Sangre Millonaria</title>
@@ -11,145 +13,236 @@
 
 <body>
 <header>
-    <nav>
-        <ul>
-            <li>
-                <a href="../index.html">Home</a>
-            </li>
-            <li>
-                <a href="./historia.html">Historia</a>
-            </li>
-            <li>
-                <a href="./palmares.html">Palmares</a>
-            </li>
-            <li><a href="./idolos.html">Idolos</a>
-            </li>
-            <li><a href="./hinchada.html">Hinchada</a>
-            </li>
-        </ul>
+
+    <nav class="navbar navbar-expand-lg navbar-light colornav">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="./historia.html">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="./palmares.html">Palmares</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="./idolos.html">Idolos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="./hinchada.html">Hinchada</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
     <a href="../index.html" class="logoPrincipal">
-        <img src="../img/android-chrome-192x192.png" alt="logoDeLaPagina" width="70px">
+        <img src="../img/android-chrome-192x192.png" alt="logoDeLaPagina">
     </a>
 
 </header>
 
-<section>
-   <div class="containerHomeIdolos">
 
-    <div class="tituloPrincipalIdolos">
-        <h1>Idolos</h1>
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
     </div>
-   </div>
-</section>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="../img/Idolos.jpg" class="d-block w-100" alt="fotoGallardo">
+        </div>
+        <div class="carousel-item">
+            <img src="../img/Idolos1.jpg" class="d-block w-100" alt="enzoPerez">
+        </div>
+        <div class="carousel-item">
+            <img src="../img/Idolos2.jpg" class="d-block w-100" alt="arielOrtega">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
 
-  <section class="fondoPaginaIdolos">
+
+
+<section class="fondoPaginaIdolos">
 
     <!-- Contenedores de parrafos Idolos -->
-        
-       <div class="parrafoIdolos">
+
+    <div class="parrafoIdolos">
         <img src="../img/labruna idolos.jpg" alt="fotoLabrunaJoven">
         <div class="tituloParrafo">
-        <h2>Angel Labruna</h2>
-        <p> Es considerado como uno de los mejores futbolistas argentinos de la historia. Jugaba como delantero por izquierda. Es el máximo goleador de la historia de River Plate con un total de 317 goles oficiales.  Además, con 16 títulos oficiales, es el segundo jugador más ganador en la historia de River Plate, y el tercer DT más ganador de la historia en el Club donde jugó durante 20 años. También fue uno de los integrantes de la delantera del célebre equipo del River Plate conocido como La Máquina de la década del cuarenta el que fue, para muchos, el mejor equipo de la historia del fútbol argentino.</p>
-    </div>
-       </div>
-    
-    <div class="parrafoIdolos1">
-        <img src="../img/alonso idolos.jpg" alt="fotoAlonsoJoven">
-        
-        <div class="tituloParrafo">
-            <h2>Norberto Alonso</h2>
-        <p>Alonso fue una de las apariciones fulminantes del fútbol argentino. Jugador de estilo exquisito y fantasista, zurdo o ambidiestro, reunió un extraordinario conjunto de virtudes: habilidad, panorama, dominio de los efectos para una excepcional pegada, salto y cabezazo. Participaba del armado del juego y llegaba a definir. Ex compañeros, rivales, directores técnicos y periodistas han ubicado las condiciones naturales de Alonso a la altura de los mejores futbolistas de la historia. </p>
-    </div>
+            <h2>Angel Labruna</h2>
+            <p> Es considerado como uno de los mejores futbolistas argentinos de la historia. Jugaba como delantero por
+                izquierda. Es el máximo goleador de la historia de River Plate con un total de 317 goles oficiales.
+                Además, con 16 títulos oficiales, es el segundo jugador más ganador en la historia de River Plate, y el
+                tercer DT más ganador de la historia en el Club donde jugó durante 20 años. También fue uno de los
+                integrantes de la delantera del célebre equipo del River Plate conocido como La Máquina de la década del
+                cuarenta el que fue, para muchos, el mejor equipo de la historia del fútbol argentino.</p>
+        </div>
     </div>
 
-    
+    <div class="parrafoIdolos1">
+        <img src="../img/alonso idolos.jpg" alt="fotoAlonsoJoven">
+
+        <div class="tituloParrafo">
+            <h2>Norberto Alonso</h2>
+            <p>Alonso fue una de las apariciones fulminantes del fútbol argentino. Jugador de estilo exquisito y
+                fantasista, zurdo o ambidiestro, reunió un extraordinario conjunto de virtudes: habilidad, panorama,
+                dominio de los efectos para una excepcional pegada, salto y cabezazo. Participaba del armado del juego y
+                llegaba a definir. Ex compañeros, rivales, directores técnicos y periodistas han ubicado las condiciones
+                naturales de Alonso a la altura de los mejores futbolistas de la historia. </p>
+        </div>
+    </div>
+
+
     <div class="parrafoIdolos">
         <img src="../img/ramon idolos.jpg" alt="ramonDiazComoTecnicoDeRiver">
         <div class="tituloParrafo">
-        <h2>Ramon Angel Diaz</h2>
-        <p> Apodado popularmente como "El Pelado", es una de las figuras más importantes de la historia del Club Atlético River Plate, destacándose como jugador y como director técnico, siendo el segundo entrenador más ganador en total. Se formó futbolísticamente y debutó con River en la temporada 1978-79. Un delantero letal dentro del área, obtuvo cuatro campeonatos en donde fue uno de los goleadores más destacados del fútbol argentino durante cuatro años. El punto cúlmine de su primer ciclo como entrenador fue la obtención de la Copa Libertadores 1996, la primera de River después de diez años sin ganarla. Su etapa se dividiría en un segundo ciclo durante la temporada 2001-02, donde ganó el Clausura, y un tercero durante la 2013-14, donde obtuvo el Torneo Final. </p>
+            <h2>Ramon Angel Diaz</h2>
+            <p> Apodado popularmente como "El Pelado", es una de las figuras más importantes de la historia del Club
+                Atlético River Plate, destacándose como jugador y como director técnico, siendo el segundo entrenador
+                más ganador en total. Se formó futbolísticamente y debutó con River en la temporada 1978-79. Un
+                delantero letal dentro del área, obtuvo cuatro campeonatos en donde fue uno de los goleadores más
+                destacados del fútbol argentino durante cuatro años. El punto cúlmine de su primer ciclo como entrenador
+                fue la obtención de la Copa Libertadores 1996, la primera de River después de diez años sin ganarla. Su
+                etapa se dividiría en un segundo ciclo durante la temporada 2001-02, donde ganó el Clausura, y un
+                tercero durante la 2013-14, donde obtuvo el Torneo Final. </p>
+        </div>
     </div>
-    </div>
-    
+
     <div class="parrafoIdolos1">
         <img src="../img/amadeo idolos.jpg" alt="fotoAmadeoCarrizoJoven">
         <div class="tituloParrafo">
-        <h2>Amadeo Carrizo</h2>
-        <p> Debutó en 1945 a la edad de 18 años, en total intervino en 595 encuentros y a sus 42 años de edad mantuvo su valla invicta 769 minutos.Su estilo de juego formó escuela entre otros afamados guardametas latinoamericanos. Jugó ininterrumpidamente en River Plate durante 24 años, desde 1945 hasta 1968, siendo el jugador que más años permaneció en el club y más partidos disputó.</p>
-    </div>
+            <h2>Amadeo Carrizo</h2>
+            <p> Debutó en 1945 a la edad de 18 años, en total intervino en 595 encuentros y a sus 42 años de edad
+                mantuvo su valla invicta 769 minutos.Su estilo de juego formó escuela entre otros afamados guardametas
+                latinoamericanos. Jugó ininterrumpidamente en River Plate durante 24 años, desde 1945 hasta 1968, siendo
+                el jugador que más años permaneció en el club y más partidos disputó.</p>
+        </div>
     </div>
 
-     <div class="parrafoIdolos">
+    <div class="parrafoIdolos">
         <img src="../img/enzo idolos.jpg" alt="enzoFrancescoliFestejando">
         <div class="tituloParrafo">
-        <h2>Enzo Francescoli</h2>
-        <p> Se desempeñaba como delantero, fue uno de los mayores ídolos y el máximo goleador extranjero de este club, al cual condujo a su segunda conquista de la Copa Libertadores de América y de la Supercopa Sudamericana, y ayudando a que River consiguiera cinco títulos argentinos más en los seis años que jugó para el equipo. Desde 2013 se desempeña como director deportivo de la institución, obteniendo 15 títulos. </p>
+            <h2>Enzo Francescoli</h2>
+            <p> Se desempeñaba como delantero, fue uno de los mayores ídolos y el máximo goleador extranjero de este
+                club, al cual condujo a su segunda conquista de la Copa Libertadores de América y de la Supercopa
+                Sudamericana, y ayudando a que River consiguiera cinco títulos argentinos más en los seis años que jugó
+                para el equipo. Desde 2013 se desempeña como director deportivo de la institución, obteniendo 15
+                títulos. </p>
+        </div>
     </div>
-     </div>
 
     <div class="parrafoIdolos1">
         <img src="../img/ortega idolos.jpg" alt="ortegaVistiendoLaCamisetaDeRiver">
         <div class="tituloParrafo">
-        <h2>Ariel Arnaldo Ortega</h2>
-        <p> Conocido como "El Burrito Ortega", fue un jugador muy creativo con una excelente habilidad técnica, Ortega surgió como una joven promesa por su regate, cambio de ritmo, movilidad y pegada para la pelota parada, así como por sus trucos con la pelota, hábiles fintas corporales y remates de vaselina. Luego de su explosión junto a Ramón Díaz a mediados de los 90 llegó a ser considerado en su mejor momento como uno de los mejores regateadores del mundo. Principalmente se desempeñaba como un enganche, siendo un efectivo creador de juego debido a su visión y habilidad de pase.</p>
-    </div>
+            <h2>Ariel Arnaldo Ortega</h2>
+            <p> Conocido como "El Burrito Ortega", fue un jugador muy creativo con una excelente habilidad técnica,
+                Ortega surgió como una joven promesa por su regate, cambio de ritmo, movilidad y pegada para la pelota
+                parada, así como por sus trucos con la pelota, hábiles fintas corporales y remates de vaselina. Luego de
+                su explosión junto a Ramón Díaz a mediados de los 90 llegó a ser considerado en su mejor momento como
+                uno de los mejores regateadores del mundo. Principalmente se desempeñaba como un enganche, siendo un
+                efectivo creador de juego debido a su visión y habilidad de pase.</p>
+        </div>
     </div>
 
     <div class="parrafoIdolos">
         <img src="../img/gallardo idolos.jpg" alt="gallardoComoTecnicoDeRiver">
         <div class="tituloParrafo">
-        <h2>Marcelo Daniel Gallardo</h2>
-        <p> Conocido como "El Muñeco", es para mi gusto el maximo Idolo de la historia del club. Sumando sus conquistas como jugador y director técnico en River Plate, Marcelo Gallardo y Ángel Labruna comparten el récord de ser los más ganadores de la historia con 22 títulos. Como director técnico con un total de catorce títulos, se convirtió en el entrenador más exitoso del club "Millonario", superando a Ramón Díaz como anterior poseedor del récord con 9 conquistas. Además, es el único entrenador de River Plate en ganar la Copa Libertadores en dos ocasiones y también el único en ganar la Copa Libertadores como jugador y como director técnico. Otros de sus logros más destacados fue eliminar al clásico rival, Boca Juniors, en cinco duelos directos consecutivos (Sudamericana en 2014, Supercopa Argentina 2017, Libertadores en 2015, 2018, 2019), de los cuales terminaría siendo campeón en cuatro de ellos.</p>
-    </div>
+            <h2>Marcelo Daniel Gallardo</h2>
+            <p> Conocido como "El Muñeco", es para mi gusto el maximo Idolo de la historia del club. Sumando sus
+                conquistas como jugador y director técnico en River Plate, Marcelo Gallardo y Ángel Labruna comparten el
+                récord de ser los más ganadores de la historia con 22 títulos. Como director técnico con un total de
+                catorce títulos, se convirtió en el entrenador más exitoso del club "Millonario", superando a Ramón Díaz
+                como anterior poseedor del récord con 9 conquistas. Además, es el único entrenador de River Plate en
+                ganar la Copa Libertadores en dos ocasiones y también el único en ganar la Copa Libertadores como
+                jugador y como director técnico. Otros de sus logros más destacados fue eliminar al clásico rival, Boca
+                Juniors, en cinco duelos directos consecutivos (Sudamericana en 2014, Supercopa Argentina 2017,
+                Libertadores en 2015, 2018, 2019), de los cuales terminaría siendo campeón en cuatro de ellos.</p>
+        </div>
     </div>
 
     <div class="parrafoIdolos1">
         <img src="../img/ponzio idolos.jpg" alt="ponzioVistiendoLaCamisetaDeRiver">
         <div class="tituloParrafo">
-        <h2>Leonardo Ponzio</h2>
-        <p> En River Plate se desempeñó en dos etapas, la primera fue entre 2007 y 2008 y la segunda desde 2012 hasta el año 2021. En el club de Núñez ha logrado 17 títulos oficiales; diez a nivel nacional (tres torneos locales, tres Copa Argentina, dos Supercopa Argentina, una Copa Campeonato y un Trofeo de Campeones) y siete a nivel internacional (dos Copas Libertadores, una Copa Sudamericana, tres Recopas Sudamericana y una Copa Suruga Bank). Es el jugador con mayor cantidad de títulos de la historia en la institución millonaria y uno de los más ganadores a nivel internacional.</p>
-    </div>
+            <h2>Leonardo Ponzio</h2>
+            <p> En River Plate se desempeñó en dos etapas, la primera fue entre 2007 y 2008 y la segunda desde 2012
+                hasta el año 2021. En el club de Núñez ha logrado 17 títulos oficiales; diez a nivel nacional (tres
+                torneos locales, tres Copa Argentina, dos Supercopa Argentina, una Copa Campeonato y un Trofeo de
+                Campeones) y siete a nivel internacional (dos Copas Libertadores, una Copa Sudamericana, tres Recopas
+                Sudamericana y una Copa Suruga Bank). Es el jugador con mayor cantidad de títulos de la historia en la
+                institución millonaria y uno de los más ganadores a nivel internacional.</p>
+        </div>
     </div>
 
-  </section> 
+</section>
 
 
 <footer>
-  
+
     <nav>
-      
+
         <!--Caja de suscripcion -->
-        
-        <form action="">
-            
-            <div class="caja">
-                <p>¿Queres recibir novedades del club mas grande del pais? ¡Suscribite!</p>
-                
-                <ul class="suscripcion">
-                    <li>
-                      <label for="name">Nombre:</label>
-                      <input type="text" id="name" name="user_name" />
-                    </li>
-                    <li>
-                      <label for="mail">Correo electrónico:</label>
-                      <input type="email" id="mail" name="user_email" />
-                    </li>
-            <button type="submit">Suscribirse</button>
-            </div>
-        </form>
-     
+
+        <div class="formulario">
+            <p>¿Queres recibir novedades del club mas grande del pais? ¡Suscribite!</p>
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-primary">Suscribirme</button>
+            </form>
+        </div>
+
         <!-- iconos de redes sociales -->
-        <div class="redesSociales"> 
-            <a href="https://www.instagram.com/riverplate/?hl=es" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z"/></svg></a>
-            <a href="https://www.youtube.com/c/riverplate" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.441 16.892c-2.102.144-6.784.144-8.883 0-2.276-.156-2.541-1.27-2.558-4.892.017-3.629.285-4.736 2.558-4.892 2.099-.144 6.782-.144 8.883 0 2.277.156 2.541 1.27 2.559 4.892-.018 3.629-.285 4.736-2.559 4.892zm-6.441-7.234l4.917 2.338-4.917 2.346v-4.684z"/></svg></a>
-            <a href="https://twitter.com/RiverPlate?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z"/></svg>
+        <div class="redesSociales">
+            <a href="https://www.instagram.com/riverplate/?hl=es" target="_blank"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                    <path
+                        d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z" />
+                    </svg></a>
+            <a href="https://www.youtube.com/c/riverplate" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg"
+                    width="40" height="40" viewBox="0 0 24 24">
+                    <path
+                        d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.441 16.892c-2.102.144-6.784.144-8.883 0-2.276-.156-2.541-1.27-2.558-4.892.017-3.629.285-4.736 2.558-4.892 2.099-.144 6.782-.144 8.883 0 2.277.156 2.541 1.27 2.559 4.892-.018 3.629-.285 4.736-2.559 4.892zm-6.441-7.234l4.917 2.338-4.917 2.346v-4.684z" />
+                    </svg></a>
+            <a href="https://twitter.com/RiverPlate?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                    <path
+                        d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z" />
+                    </svg>
             </a>
-  </nav>
+    </nav>
 
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 
 </body>
 </html>

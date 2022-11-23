@@ -1,13 +1,14 @@
-*{
+
+* {
     padding: 0px;
     margin: 0px;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
-header{
+header {
     background-color: #b92323;
     padding: 10px 20px 10px 10px;
     display: flex;
@@ -15,17 +16,17 @@ header{
     justify-content: space-between;
 }
 
-.logoPrincipal{
-   display: flex;
-   margin: 10px 0px 10px 30px;
+.logoPrincipal {
+    display: flex;
+    margin: 10px 0px 10px 30px;
 }
 
-.logoPrincipal img{
+.logoPrincipal img {
     height: 85px;
     width: 75px;
 }
 
-ul li{
+ul li {
     list-style-type: none;
     font-size: 25px;
     display: flex;
@@ -33,11 +34,11 @@ ul li{
     padding: 10px;
 }
 
-.colornav{
+.colornav {
     background-color: #b92323
 }
 
-.nav-item:hover{
+.nav-item:hover {
     transform: scale(1.2);
     transition-duration: 1s;
     text-decoration: underline;
@@ -46,41 +47,14 @@ ul li{
 
 /* HINCHADA */
 
-.containerHomeHinchada{
-    height: 675px;
-    width: 100%;
-    background-image: url(../img/hincha1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: relative;
-}
-
-.containerHomeHinchada img{
-    height: 100%;
-    width: 100%;
-}
-
-.tituloPrincipalHinchada{
-   font-size: 60px;
-   color:aliceblue;
-   position: absolute;
-   left: 42%;
-   top: 42%;
-}
-
-.containerHomeHinchada:hover{
-    opacity: 75%;
-}
-
-.fondoPaginaHinchada{
-    background-color: #424242;
+.fondoPaginaHinchada {
+    background-color: #42424275;
     padding: 50px;
-    margin: 150px 50px 100px 50px;
+    margin: 100px 50px 100px 50px;
     border-radius: 50px;
 }
 
-.videos{
+.videos {
     display: grid;
     grid-template-columns: auto auto;
 
@@ -93,19 +67,22 @@ ul li{
     width: 800px;
 }
 
-.videos h2{
+.videos h2 {
     margin-bottom: 25px;
     text-align: center;
     font-size: 25px;
     color: aliceblue;
 }
 
-body{
-    background: rgb(45,0,0);
-    background: linear-gradient(149deg, rgba(45,0,0,1) 0%, rgba(0,0,0,1) 100%);
+/* HOME */
+
+body {
+    background: rgb(45, 0, 0);
+    background: linear-gradient(149deg, rgba(45, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
     font-family: sans-serif;
 }
-.fondoPagina{
+
+.fondoPagina {
     background-color: #42424275;
     padding: 50px;
     margin: 100px 50px 100px 50px;
@@ -114,7 +91,8 @@ body{
     border-radius: 50px;
     flex-wrap: wrap;
 }
-.fondoPagina p{
+
+.fondoPagina p {
     font-size: 20px;
     color: aliceblue;
     padding: 10px;
@@ -123,73 +101,39 @@ body{
 
 }
 
-.fondoPagina img{
-    height: 220px;
-    width: 180px;
-    padding: 10px;
-    border-radius:30px;
-}
-
-.fondoPagina h2{
-    font-size: 25px;
-    color: aliceblue;
-    display: flex;
-    justify-content: center;
-}
-
-.centrarVideitos{
-    display: flex;
-    justify-content: center;
-}
-
-/* IDOLOS */
-
-.containerHomeIdolos{
-    height: 675px;
-    width: 100%;
-    background-image: url(../img/Idolos.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: relative;
-}
-
-.containerHomeIdolos img{
-    height: 100%;
-    width: 100%;
-}
-
-.tituloPrincipalIdolos{
-   font-size: 60px;
-   color:aliceblue;
-   position: absolute;
-   left: 42%;
-   top: 42%;
-}
-
-.containerHomeIdolos:hover{
-    opacity: 75%;
-}
-
-
-.fondoPaginaIdolos{
-    background-color: #424242;
-    padding: 50px;
-    margin: 100px 50px 100px 50px;
-    border-radius: 50px;
-    display: grid;
-    grid-template-columns: auto auto;
-
-}
-
-.fondoPaginaIdolos img{
+.fondoPagina img {
     height: 220px;
     width: 180px;
     padding: 10px;
     border-radius: 30px;
 }
 
-.parrafoIdolos{
+.fondoPagina h2 {
+    font-size: 25px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* IDOLOS */
+.fondoPaginaIdolos {
+    background-color: #42424275;
+    padding: 50px;
+    margin: 100px 50px 100px 50px;
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.fondoPaginaIdolos img {
+    height: 220px;
+    width: 180px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.parrafoIdolos {
     background-color: #b92323;
     padding: 20px;
     margin: 10px;
@@ -198,18 +142,18 @@ body{
     flex-direction: row;
 }
 
-.parrafoIdolos h2{
+.parrafoIdolos h2 {
     font-size: 25px;
     color: aliceblue;
     margin-bottom: 10px;
 }
 
-.parrafoIdolos p{
+.parrafoIdolos p {
     font-size: 20px;
     color: aliceblue;
 }
 
-.parrafoIdolos1{
+.parrafoIdolos1 {
     background-color: #742020;
     padding: 20px;
     margin: 10px;
@@ -217,34 +161,34 @@ body{
     display: flex;
     flex-direction: row;
 }
-.parrafoIdolos1 h2{
+
+.parrafoIdolos1 h2 {
     font-size: 25px;
     color: aliceblue;
     margin-bottom: 10px;
 }
 
-.parrafoIdolos1 p{
+.parrafoIdolos1 p {
     font-size: 20px;
     color: aliceblue;
 }
 
-a{
+a {
     text-decoration: none;
     color: aliceblue;
 }
 
-.tituloParrafo{
-display: flex;
-flex-direction: column;
-text-align: center;
-color: aliceblue;
+.tituloParrafo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: aliceblue;
 
 }
 
 /* PALMARES */
 
-
-.fondoPaginaPalmares{
+.fondoPaginaPalmares {
     background-color: #424242;
     padding: 50px 0px 50px 80px;
     margin: 100px 50px 100px 50px;
@@ -254,42 +198,42 @@ color: aliceblue;
 
 }
 
-.fondoPaginaPalmares div{
+.fondoPaginaPalmares div {
     padding: 10px 5px 10px 10px;
     margin: 30px 20px 30px 20px;
 }
-.libertadores img{
+
+.libertadores img {
     border-radius: 15%;
 }
 
-.libertadores h2{
+.libertadores h2 {
     color: aliceblue;
     font-size: 20px;
     margin: 25px 0px 25px 0px;
 }
 
-.libertadores img:hover{
+.libertadores img:hover {
     transform: scale(110%);
     transition-duration: 1s;
 }
 
-.libertadores{
+.libertadores {
     height: 300px;
     width: 300px;
     display: flex;
     justify-content: center;
-    flex-direction:column;
+    flex-direction: column;
     text-align: center;
 }
 
-.libertadores img{
+.libertadores img {
     height: 100%;
     width: 100%;
 }
 
 /* FOOTER Y CAJA */
-
-.formulario{
+.formulario {
     background-color: rgb(233, 141, 141);
     display: flex;
     justify-content: center;
@@ -299,71 +243,73 @@ color: aliceblue;
     align-items: center;
 }
 
-.form-control{
+.form-control {
     width: 280px;
 }
 
-.formulario p{
+.formulario p {
     font-size: 20px;
 }
 
-.redesSociales{
-   padding: 10px 10px 10px 10px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 16px;
-   transition: 2s;
+.redesSociales {
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    transition: 2s;
 }
 
-.redesSociales svg{
+.redesSociales svg {
     fill: aliceblue;
     height: 60px;
     width: 40px;
 }
-.redesSociales svg:hover{
+
+.redesSociales svg:hover {
     fill: black;
 }
 
-footer{
+footer {
     background-color: #b92323;
 }
 
-@media (max-width: 576px) {
+
+@media (max-width: 992px) {
 
     .logoPrincipal {
         display: flex;
         flex-direction: initial;
-        margin: 5px 0px 5px 15px;
+        margin: 8px 0px 8px 20px;
         display: flex;
 
     }
 
     .logoPrincipal img {
-        height: 60px;
-        width: 50px;
+        height: 70px;
+        width: 60px;
     }
 
     .fondoPagina {
         background-color: #42424275;
-        padding: 25px;
-        margin: 30px 25px 30px 25px;
+        padding: 30px;
+        margin: 35px 30px 35px 30px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
 
     .fondoPagina p {
-        font-size: 10px;
+        font-size: 15px;
         color: aliceblue;
-        padding: 2px;
+        padding: 4px;
         display: flex;
         text-align: justify;
 
     }
 
     .fondoPagina h2 {
-        font-size: 15px;
+        font-size: 20px;
         color: aliceblue;
         display: flex;
         text-align: center;
@@ -371,77 +317,194 @@ footer{
 
     .formulario {
         background-color: rgb(233, 141, 141);
-        padding: 15px;
+        padding: 25px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .formulario p {
-        font-size: 10px;
+        font-size: 15px;
     }
 
-    .form-control{
-        width: 140px;
-        height: 15px;
+    .form-control {
+        width: 145px;
+        height: 20px;
     }
 
     .suscripcion label {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .redesSociales {
-        padding: 10px 10px 10px 10px;
+        padding: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 8px;
+        gap: 16px;
         transition: 2s;
     }
 
     .redesSociales svg {
         fill: aliceblue;
-        height: 30px;
-        width: 20px;
+        height: 45px;
+        width: 35px;
     }
 
     .redesSociales svg:hover {
         fill: black;
     }
 
-    /* PALMARES */
+/* PALMARES */
 
-    .fondoPaginaPalmares{
+    .fondoPaginaPalmares {
         background-color: #42424275;
-        padding: 25px 0px 25px 40px;
+        padding: 20px 0px 25px 40px;
         margin: 30px 0px 30px 0px;
         display: grid;
         grid-template-columns: auto auto;
 
     }
 
-    .fondoPaginaPalmares div{
-        padding: 5px 0px 5px 5px;
-        height: 150px;
-        width: 150px;
+    .fondoPaginaPalmares div {
+        padding: 10px 0px 10px 5px;
+        height: 160px;
+        width: 160px;
     }
-    .libertadores img{
+
+    .libertadores img {
         border-radius: 15%;
-        height: 10rem;
-        width: 10rem;
+        height: 15rem;
+        width: 15rem;
     }
 
-    .libertadores h2{
+    .libertadores h2 {
         color: aliceblue;
-        font-size: 12px;
-        margin: 10px 0px 10px 0px;
+        font-size: 14px;
+        margin: 15px 0px 15px 0px;
     }
 
-    .libertadores img:hover{
+    .libertadores img:hover {
         transform: scale(110%);
         transition-duration: 1s;
     }
 }
 
+@media (max-width: 576px) {
+    .logoPrincipal {
+            display: flex;
+            flex-direction: initial;
+            margin: 5px 0px 5px 15px;
+            display: flex;
+    
+        }
+    
+        .logoPrincipal img {
+            height: 60px;
+            width: 50px;
+        }
+    
+        .fondoPagina {
+            background-color: #42424275;
+            padding: 25px;
+            margin: 30px 25px 30px 25px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    
+        .fondoPagina p {
+            font-size: 10px;
+            color: aliceblue;
+            padding: 2px;
+            display: flex;
+            text-align: justify;
+    
+        }
+    
+        .fondoPagina h2 {
+            font-size: 15px;
+            color: aliceblue;
+            display: flex;
+            text-align: center;
+        }
+    
+        .formulario {
+            background-color: rgb(233, 141, 141);
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 10px;
+        }
+    
+        .formulario p {
+            font-size: 10px;
+        }
+    
+        .form-control {
+            width: 140px;
+            height: 15px;
+        }
+    
+        .suscripcion label {
+            font-size: 10px;
+        }
+    
+        .redesSociales {
+            padding: 10px 10px 10px 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            transition: 2s;
+        }
+    
+        .redesSociales svg {
+            fill: aliceblue;
+            height: 30px;
+            width: 20px;
+        }
+    
+        .redesSociales svg:hover {
+            fill: black;
+        }
+    
+    /* PALMARES */
+    
+        .fondoPaginaPalmares {
+            background-color: #42424275;
+            padding: 25px 0px 25px 40px;
+            margin: 30px 0px 30px 0px;
+            display: grid;
+            grid-template-columns: auto auto;
+    
+        }
+    
+        .fondoPaginaPalmares div {
+            padding: 5px 0px 5px 5px;
+            height: 150px;
+            width: 150px;
+        }
+    
+        .libertadores img {
+            border-radius: 15%;
+            height: 10rem;
+            width: 10rem;
+        }
+    
+        .libertadores h2 {
+            color: aliceblue;
+            font-size: 12px;
+            margin: 10px 0px 10px 0px;
+        }
+    
+        .libertadores img:hover {
+            transform: scale(110%);
+            transition-duration: 1s;
+        }
+        }
+    
