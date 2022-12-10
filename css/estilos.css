@@ -89,7 +89,7 @@ footer {
 }
 
 /*HOME*/
-.fondoPagina, .fondoPaginaHinchada, .fondoPaginaIdolos, .fondoPaginaPalmares {
+.fondoPagina, .fondoPaginaIdolos, .fondoPaginaPalmares {
   background-color: rgba(66, 66, 66, 0.4588235294);
   padding: 50px;
   margin: 100px 50px 100px 50px;
@@ -98,14 +98,14 @@ footer {
   border-radius: 50px;
   flex-wrap: wrap;
 }
-.fondoPagina p, .fondoPaginaHinchada p, .fondoPaginaIdolos p, .fondoPaginaPalmares p {
+.fondoPagina p, .fondoPaginaIdolos p, .fondoPaginaPalmares p {
   font-size: 20px;
   color: aliceblue;
   padding: 10px;
   display: flex;
   text-align: justify;
 }
-.fondoPagina h2, .fondoPaginaHinchada h2, .fondoPaginaIdolos h2, .fondoPaginaPalmares h2 {
+.fondoPagina h2, .fondoPaginaIdolos h2, .fondoPaginaPalmares h2 {
   font-size: 25px;
   color: aliceblue;
   display: flex;
@@ -209,26 +209,39 @@ footer {
 }
 
 /*HINCHADA*/
+.fondoPaginaHinchada {
+  background-color: rgba(66, 66, 66, 0.4588235294);
+  padding: 50px;
+  gap: 10px;
+  margin: 100px 50px 100px 50px;
+  border-radius: 50px;
+}
 .fondoPaginaHinchada .videos {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  align-items: center;
 }
 .fondoPaginaHinchada .videos .centrarVideitos {
   padding: 25px;
   height: auto;
   width: auto;
   margin: 10px;
-  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
 }
 .fondoPaginaHinchada .videos .centrarVideitos h2 {
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   text-align: center;
   font-size: 25px;
   color: aliceblue;
+}
+.fondoPaginaHinchada .videos .centrarVideitos iframe {
+  width: 100%;
+  height: 450px;
+  border-radius: 15px;
 }
 
 @media (max-width: 992px) {
@@ -242,7 +255,7 @@ footer {
     height: 70px;
     width: 60px;
   }
-  .fondoPagina, .fondoPaginaPalmares, .fondoPaginaIdolos, .fondoPaginaHinchada {
+  .fondoPagina, .fondoPaginaPalmares, .fondoPaginaIdolos {
     background-color: rgba(66, 66, 66, 0.4588235294);
     padding: 30px;
     margin: 35px 30px 35px 30px;
@@ -250,14 +263,14 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
   }
-  .fondoPagina p, .fondoPaginaPalmares p, .fondoPaginaIdolos p, .fondoPaginaHinchada p {
+  .fondoPagina p, .fondoPaginaPalmares p, .fondoPaginaIdolos p {
     font-size: 15px;
     color: aliceblue;
     padding: 4px;
     display: flex;
     text-align: justify;
   }
-  .fondoPagina h2, .fondoPaginaPalmares h2, .fondoPaginaIdolos h2, .fondoPaginaHinchada h2 {
+  .fondoPagina h2, .fondoPaginaPalmares h2, .fondoPaginaIdolos h2 {
     font-size: 20px;
     color: aliceblue;
     display: flex;
@@ -318,7 +331,7 @@ footer {
     height: 60px;
     width: 50px;
   }
-  .fondoPagina, .fondoPaginaPalmares, .fondoPaginaIdolos, .fondoPaginaHinchada {
+  .fondoPagina, .fondoPaginaPalmares, .fondoPaginaIdolos {
     background-color: rgba(66, 66, 66, 0.4588235294);
     padding: 25px;
     margin: 30px 25px 30px 25px;
@@ -326,14 +339,14 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
   }
-  .fondoPagina p, .fondoPaginaPalmares p, .fondoPaginaIdolos p, .fondoPaginaHinchada p {
+  .fondoPagina p, .fondoPaginaPalmares p, .fondoPaginaIdolos p {
     font-size: 10px;
     color: aliceblue;
     padding: 2px;
     display: flex;
     text-align: justify;
   }
-  .fondoPagina h2, .fondoPaginaPalmares h2, .fondoPaginaIdolos h2, .fondoPaginaHinchada h2 {
+  .fondoPagina h2, .fondoPaginaPalmares h2, .fondoPaginaIdolos h2 {
     font-size: 15px;
     color: aliceblue;
     display: flex;
@@ -377,14 +390,138 @@ footer {
   /* PALMARES */
   .fondoPaginaPalmares {
     background-color: rgba(66, 66, 66, 0.4588235294);
-    padding: 25px 0px 25px 40px;
-    margin: 30px 0px 30px 0px;
+    padding: 15px;
+    justify-content: center;
     display: grid;
     grid-template-columns: auto auto;
   }
-  .fondoPaginaPalmares div {
-    padding: 5px 0px 5px 5px;
-    height: 150px;
-    width: 150px;
+  .fondoPaginaPalmares .libertadores {
+    width: 160px;
+    height: 160px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .fondoPaginaPalmares .libertadores img {
+    border-radius: 15%;
+    height: 100%;
+    width: 100%;
+  }
+  .fondoPaginaPalmares .libertadores h2 {
+    color: aliceblue;
+    font-size: 12px;
+    margin: 15px;
+  }
+  .libertadores img:hover {
+    transform: scale(110%);
+    transition-duration: 1s;
+  }
+  /*IDOLOS*/
+  .fondoPaginaIdolos {
+    background-color: rgba(66, 66, 66, 0.4588235294);
+    padding: 25px;
+    margin: 50px 25px 50px 25px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .fondoPaginaIdolos .parrafoIdolos {
+    background-color: #b92323;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+  }
+  .fondoPaginaIdolos .parrafoIdolos img {
+    width: 100px;
+    height: 120px;
+    padding: 5px;
+    border-radius: 15px;
+  }
+  .fondoPaginaIdolos .parrafoIdolos .tituloParrafo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: aliceblue;
+  }
+  .fondoPaginaIdolos .parrafoIdolos .tituloParrafo h2 {
+    font-size: 10px;
+    color: aliceblue;
+    margin-bottom: 5px;
+  }
+  .fondoPaginaIdolos .parrafoIdolos .tituloParrafo p {
+    font-size: 10px;
+    color: aliceblue;
+  }
+  .fondoPaginaIdolos .parrafoIdolos1 {
+    background-color: #742020;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+  }
+  .fondoPaginaIdolos .parrafoIdolos1 img {
+    width: 100px;
+    height: 120px;
+    padding: 5px;
+    border-radius: 15px;
+  }
+  .fondoPaginaIdolos .parrafoIdolos1 .tituloParrafo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: aliceblue;
+  }
+  .fondoPaginaIdolos .parrafoIdolos1 .tituloParrafo h2 {
+    font-size: 10px;
+    color: aliceblue;
+    margin-bottom: 5px;
+  }
+  .fondoPaginaIdolos .parrafoIdolos1 .tituloParrafo p {
+    font-size: 10px;
+    color: aliceblue;
+  }
+  /*HINCHADA*/
+  .fondoPaginaHinchada {
+    background-color: rgba(66, 66, 66, 0.4588235294);
+    padding: 15px;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .fondoPaginaHinchada .videos {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .fondoPaginaHinchada .videos .centrarVideitos {
+    padding: 10px;
+    height: auto;
+    width: auto;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  .fondoPaginaHinchada .videos .centrarVideitos h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 10px;
+    color: aliceblue;
+  }
+  .fondoPaginaHinchada .videos .centrarVideitos iframe {
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
   }
 }/*# sourceMappingURL=estilos.css.map */
