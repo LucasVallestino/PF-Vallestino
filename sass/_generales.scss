@@ -1,0 +1,88 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    background-color: $color;
+    padding: 10px 20px 10px 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    ul li {
+        list-style-type: none;
+        font-size: 25px;
+        display: flex;
+        display: inline-block;
+        padding: 10px;
+    }
+}
+
+.colornav {
+    background-color: $color;
+}
+
+.nav-item:hover {
+    transform: scale(1.2);
+    transition-duration: 1s;
+    text-decoration: underline;
+}
+
+.logoPrincipal {
+    display: flex;
+    margin: 10px 0px 10px 30px;
+    img {
+        @include size (75px, 85px);
+    }
+}
+
+body {
+    background: rgb(45, 0, 0);
+    background: linear-gradient(149deg, rgba(45, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    font-family: sans-serif;
+}
+
+.formulario {
+    background-color: rgb(233, 141, 141);
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-control {
+    width: 280px;
+}
+
+.formulario p {
+    font-size: 20px;
+}
+
+.redesSociales {
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    transition: 2s;
+}
+
+.redesSociales svg {
+    fill: aliceblue;
+    height: 60px;
+    width: 40px;
+}
+
+.redesSociales svg:hover {
+    fill: black;
+}
+
+footer {
+    background-color: $color;
+}

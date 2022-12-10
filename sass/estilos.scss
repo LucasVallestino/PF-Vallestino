@@ -1,0 +1,207 @@
+@import "variables";
+@import "generales";
+@import "home";
+@import "palmares";
+@import "idolos";
+@import "hinchada";
+
+
+
+@media (max-width: 992px) {
+
+    .logoPrincipal {
+        display: flex;
+        flex-direction: initial;
+        margin: 8px 0px 8px 20px;
+        display: flex;
+
+    }
+
+    .logoPrincipal img {
+        height: 70px;
+        width: 60px;
+    }
+
+    .fondoPagina {
+        background-color: #42424275;
+        padding: 30px;
+        margin: 35px 30px 35px 30px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .fondoPagina p {
+        font-size: 15px;
+        color: aliceblue;
+        padding: 4px;
+        display: flex;
+        text-align: justify;
+
+    }
+
+    .fondoPagina h2 {
+        font-size: 20px;
+        color: aliceblue;
+        display: flex;
+        text-align: center;
+    }
+
+    .formulario {
+        background-color: rgb(233, 141, 141);
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .formulario p {
+        font-size: 15px;
+    }
+
+    .form-control {
+        width: 145px;
+        height: 20px;
+    }
+
+    .suscripcion label {
+        font-size: 15px;
+    }
+
+    .redesSociales {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        transition: 2s;
+    }
+
+    .redesSociales svg {
+        fill: aliceblue;
+        height: 45px;
+        width: 35px;
+    }
+
+    .redesSociales svg:hover {
+        fill: black;
+    }
+
+/* PALMARES */
+
+    .fondoPaginaPalmares {
+        background-color: #42424275;
+        padding: 20px 0px 25px 40px;
+        margin: 30px 0px 30px 0px;
+        display: grid;
+        grid-template-columns: auto auto;
+
+    }
+
+}
+
+
+
+@media (max-width: 576px) {
+    .logoPrincipal {
+            display: flex;
+            flex-direction: initial;
+            margin: 5px 0px 5px 15px;
+            display: flex;
+    
+        }
+    
+        .logoPrincipal img {
+            height: 60px;
+            width: 50px;
+        }
+    
+        .fondoPagina {
+            background-color: #42424275;
+            padding: 25px;
+            margin: 30px 25px 30px 25px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    
+        .fondoPagina p {
+            font-size: 10px;
+            color: aliceblue;
+            padding: 2px;
+            display: flex;
+            text-align: justify;
+    
+        }
+    
+        .fondoPagina h2 {
+            font-size: 15px;
+            color: aliceblue;
+            display: flex;
+            text-align: center;
+        }
+    
+        .formulario {
+            background-color: rgb(233, 141, 141);
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 10px;
+        }
+    
+        .formulario p {
+            font-size: 10px;
+        }
+    
+        .form-control {
+            width: 140px;
+            height: 15px;
+        }
+    
+        .suscripcion label {
+            font-size: 10px;
+        }
+    
+        .redesSociales {
+            padding: 10px 10px 10px 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            transition: 2s;
+        }
+    
+        .redesSociales svg {
+            fill: aliceblue;
+            height: 30px;
+            width: 20px;
+        }
+    
+        .redesSociales svg:hover {
+            fill: black;
+        }
+    
+    /* PALMARES */
+    
+        .fondoPaginaPalmares {
+            background-color: #42424275;
+            padding: 25px 0px 25px 40px;
+            margin: 30px 0px 30px 0px;
+            display: grid;
+            grid-template-columns: auto auto;
+    
+        }
+    
+        .fondoPaginaPalmares div {
+            padding: 5px 0px 5px 5px;
+            height: 150px;
+            width: 150px;
+        }
+    
+        
+        }
+    

@@ -1,0 +1,31 @@
+/*HINCHADA*/
+
+.fondoPaginaHinchada {
+    @extend .fondoPagina;
+    
+    .videos {
+        display: grid;
+        grid-template-columns: auto auto;
+        
+         
+        .centrarVideitos{
+            padding: 25px;
+            height: auto;
+            width: auto;
+            margin: 10px;
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            
+            h2 {
+                margin-bottom: 25px;
+                text-align: center;
+                font-size: 25px;
+                color: aliceblue;
+            }
+        }          
+    }
+}
+

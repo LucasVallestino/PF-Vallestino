@@ -1,0 +1,27 @@
+/*HOME*/
+
+.fondoPagina {
+    background-color: #42424275;
+    padding: 50px;
+    margin: 100px 50px 100px 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    flex-wrap: wrap;
+    p {
+        font-size: 20px;
+        color: aliceblue;
+        padding: 10px;
+        display: flex;
+        text-align: justify;
+    
+    }
+    h2 {
+        font-size: 25px;
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+

@@ -1,0 +1,6 @@
+$color: #b92323;
+
+@mixin size ($ancho, $altura) {
+    width: $ancho;
+    height: $altura;
+}

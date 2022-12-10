@@ -1,0 +1,390 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background-color: #b92323;
+  padding: 10px 20px 10px 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+header ul li {
+  list-style-type: none;
+  font-size: 25px;
+  display: flex;
+  display: inline-block;
+  padding: 10px;
+}
+
+.colornav {
+  background-color: #b92323;
+}
+
+.nav-item:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
+  text-decoration: underline;
+}
+
+.logoPrincipal {
+  display: flex;
+  margin: 10px 0px 10px 30px;
+}
+.logoPrincipal img {
+  width: 75px;
+  height: 85px;
+}
+
+body {
+  background: rgb(45, 0, 0);
+  background: linear-gradient(149deg, rgb(45, 0, 0) 0%, rgb(0, 0, 0) 100%);
+  font-family: sans-serif;
+}
+
+.formulario {
+  background-color: rgb(233, 141, 141);
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-control {
+  width: 280px;
+}
+
+.formulario p {
+  font-size: 20px;
+}
+
+.redesSociales {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  transition: 2s;
+}
+
+.redesSociales svg {
+  fill: aliceblue;
+  height: 60px;
+  width: 40px;
+}
+
+.redesSociales svg:hover {
+  fill: black;
+}
+
+footer {
+  background-color: #b92323;
+}
+
+/*HOME*/
+.fondoPagina, .fondoPaginaHinchada, .fondoPaginaIdolos, .fondoPaginaPalmares {
+  background-color: rgba(66, 66, 66, 0.4588235294);
+  padding: 50px;
+  margin: 100px 50px 100px 50px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 50px;
+  flex-wrap: wrap;
+}
+.fondoPagina p, .fondoPaginaHinchada p, .fondoPaginaIdolos p, .fondoPaginaPalmares p {
+  font-size: 20px;
+  color: aliceblue;
+  padding: 10px;
+  display: flex;
+  text-align: justify;
+}
+.fondoPagina h2, .fondoPaginaHinchada h2, .fondoPaginaIdolos h2, .fondoPaginaPalmares h2 {
+  font-size: 25px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+
+/* PALMARES */
+.fondoPaginaPalmares {
+  padding: 50px 0px 50px 80px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.fondoPaginaPalmares .libertadores {
+  width: 300px;
+  height: 300px;
+  padding: 10px 5px 10px 10px;
+  margin: 30px 20px 30px 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.fondoPaginaPalmares .libertadores img {
+  border-radius: 15%;
+  height: 100%;
+  width: 100%;
+}
+.fondoPaginaPalmares .libertadores h2 {
+  color: aliceblue;
+  font-size: 20px;
+  margin: 25px 0px 25px 0px;
+}
+
+.libertadores img:hover {
+  transform: scale(110%);
+  transition-duration: 1s;
+}
+
+/* IDOLOS */
+.fondoPaginaIdolos {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.fondoPaginaIdolos .parrafoIdolos {
+  background-color: #b92323;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+}
+.fondoPaginaIdolos .parrafoIdolos img {
+  width: 180px;
+  height: 220px;
+  padding: 10px;
+  border-radius: 30px;
+}
+.fondoPaginaIdolos .parrafoIdolos .tituloParrafo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: aliceblue;
+}
+.fondoPaginaIdolos .parrafoIdolos .tituloParrafo h2 {
+  font-size: 25px;
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+.fondoPaginaIdolos .parrafoIdolos .tituloParrafo p {
+  font-size: 20px;
+  color: aliceblue;
+}
+.fondoPaginaIdolos .parrafoIdolos1 {
+  background-color: #742020;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+}
+.fondoPaginaIdolos .parrafoIdolos1 img {
+  width: 180px;
+  height: 220px;
+  padding: 10px;
+  border-radius: 30px;
+}
+.fondoPaginaIdolos .parrafoIdolos1 .tituloParrafo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: aliceblue;
+}
+.fondoPaginaIdolos .parrafoIdolos1 .tituloParrafo h2 {
+  font-size: 25px;
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+.fondoPaginaIdolos .parrafoIdolos1 .tituloParrafo p {
+  font-size: 20px;
+  color: aliceblue;
+}
+
+/*HINCHADA*/
+.fondoPaginaHinchada .videos {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.fondoPaginaHinchada .videos .centrarVideitos {
+  padding: 25px;
+  height: auto;
+  width: auto;
+  margin: 10px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.fondoPaginaHinchada .videos .centrarVideitos h2 {
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 25px;
+  color: aliceblue;
+}
+
+@media (max-width: 992px) {
+  .logoPrincipal {
+    display: flex;
+    flex-direction: initial;
+    margin: 8px 0px 8px 20px;
+    display: flex;
+  }
+  .logoPrincipal img {
+    height: 70px;
+    width: 60px;
+  }
+  .fondoPagina, .fondoPaginaPalmares, .fondoPaginaIdolos, .fondoPaginaHinchada {
+    background-color: rgba(66, 66, 66, 0.4588235294);
+    padding: 30px;
+    margin: 35px 30px 35px 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .fondoPagina p, .fondoPaginaPalmares p, .fondoPaginaIdolos p, .fondoPaginaHinchada p {
+    font-size: 15px;
+    color: aliceblue;
+    padding: 4px;
+    display: flex;
+    text-align: justify;
+  }
+  .fondoPagina h2, .fondoPaginaPalmares h2, .fondoPaginaIdolos h2, .fondoPaginaHinchada h2 {
+    font-size: 20px;
+    color: aliceblue;
+    display: flex;
+    text-align: center;
+  }
+  .formulario {
+    background-color: rgb(233, 141, 141);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+  .formulario p {
+    font-size: 15px;
+  }
+  .form-control {
+    width: 145px;
+    height: 20px;
+  }
+  .suscripcion label {
+    font-size: 15px;
+  }
+  .redesSociales {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    transition: 2s;
+  }
+  .redesSociales svg {
+    fill: aliceblue;
+    height: 45px;
+    width: 35px;
+  }
+  .redesSociales svg:hover {
+    fill: black;
+  }
+  /* PALMARES */
+  .fondoPaginaPalmares {
+    background-color: rgba(66, 66, 66, 0.4588235294);
+    padding: 20px 0px 25px 40px;
+    margin: 30px 0px 30px 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+@media (max-width: 576px) {
+  .logoPrincipal {
+    display: flex;
+    flex-direction: initial;
+    margin: 5px 0px 5px 15px;
+    display: flex;
+  }
+  .logoPrincipal img {
+    height: 60px;
+    width: 50px;
+  }
+  .fondoPagina, .fondoPaginaPalmares, .fondoPaginaIdolos, .fondoPaginaHinchada {
+    background-color: rgba(66, 66, 66, 0.4588235294);
+    padding: 25px;
+    margin: 30px 25px 30px 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .fondoPagina p, .fondoPaginaPalmares p, .fondoPaginaIdolos p, .fondoPaginaHinchada p {
+    font-size: 10px;
+    color: aliceblue;
+    padding: 2px;
+    display: flex;
+    text-align: justify;
+  }
+  .fondoPagina h2, .fondoPaginaPalmares h2, .fondoPaginaIdolos h2, .fondoPaginaHinchada h2 {
+    font-size: 15px;
+    color: aliceblue;
+    display: flex;
+    text-align: center;
+  }
+  .formulario {
+    background-color: rgb(233, 141, 141);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+  .formulario p {
+    font-size: 10px;
+  }
+  .form-control {
+    width: 140px;
+    height: 15px;
+  }
+  .suscripcion label {
+    font-size: 10px;
+  }
+  .redesSociales {
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    transition: 2s;
+  }
+  .redesSociales svg {
+    fill: aliceblue;
+    height: 30px;
+    width: 20px;
+  }
+  .redesSociales svg:hover {
+    fill: black;
+  }
+  /* PALMARES */
+  .fondoPaginaPalmares {
+    background-color: rgba(66, 66, 66, 0.4588235294);
+    padding: 25px 0px 25px 40px;
+    margin: 30px 0px 30px 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .fondoPaginaPalmares div {
+    padding: 5px 0px 5px 5px;
+    height: 150px;
+    width: 150px;
+  }
+}/*# sourceMappingURL=estilos.css.map */

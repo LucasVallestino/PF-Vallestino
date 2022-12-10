@@ -1,0 +1,35 @@
+/* PALMARES */
+
+.fondoPaginaPalmares {
+    @extend .fondoPagina;
+    padding: 50px 0px 50px 80px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+    .libertadores {
+        @include size (300px, 300px);
+        padding: 10px 5px 10px 10px;
+        margin: 30px 20px 30px 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+
+        img {
+            border-radius: 15%;
+            height: 100%;
+            width: 100%;
+        }
+
+        h2 {
+            color: aliceblue;
+            font-size: 20px;
+            margin: 25px 0px 25px 0px;
+        }
+    }
+}
+
+.libertadores img:hover {
+    transform: scale(110%);
+    transition-duration: 1s;
+}
