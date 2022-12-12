@@ -14,6 +14,7 @@ header {
     flex-direction: row-reverse;
     justify-content: space-between;
     width: 100%;
+
     ul li {
         list-style-type: none;
         font-size: 25px;
@@ -36,6 +37,7 @@ header {
 .logoPrincipal {
     display: flex;
     margin: 10px 0px 10px 30px;
+
     img {
         @include size (75px, 85px);
     }
