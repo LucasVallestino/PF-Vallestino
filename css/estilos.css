@@ -56,6 +56,7 @@ body {
   padding: 10px;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .form-control {
@@ -87,6 +88,8 @@ body {
 
 footer {
   background-color: #b92323;
+  width: 100%;
+  height: 100%;
 }
 
 /*HOME*/
@@ -107,10 +110,11 @@ footer {
   text-align: justify;
 }
 .fondoPagina h2, .fondoPaginaIdolos h2, .fondoPaginaPalmares h2 {
-  font-size: 25px;
+  font-size: 30px;
   color: aliceblue;
   display: flex;
   justify-content: center;
+  margin-bottom: 2%;
 }
 
 /* PALMARES */
@@ -246,15 +250,18 @@ footer {
 }
 
 @media (max-width: 992px) {
+  header {
+    flex-direction: row;
+    padding-left: 15px;
+  }
   header ul li {
-    font-size: 20px;
-    text-align: end;
+    font-size: 18px;
+    text-align: initial;
+    padding: 2px;
   }
   .logoPrincipal {
     display: flex;
-    flex-direction: initial;
-    margin: 10px 0px 10px 20px;
-    display: flex;
+    margin: 10px 20px 10px 0px;
   }
   .logoPrincipal img {
     height: 80px;
@@ -263,10 +270,12 @@ footer {
   .fondoPagina, .fondoPaginaPalmares, .fondoPaginaIdolos {
     background-color: rgba(66, 66, 66, 0.4588235294);
     padding: 30px;
-    margin: 5%;
+    margin: 8% 0% 8% 0%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    border-radius: 0%;
+    width: 100%;
   }
   .fondoPagina p, .fondoPaginaPalmares p, .fondoPaginaIdolos p {
     font-size: 15px;
@@ -289,6 +298,7 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 15px;
+    width: 100%;
   }
   .formulario p {
     font-size: 15px;
@@ -307,6 +317,8 @@ footer {
     align-items: center;
     gap: 8px;
     transition: 2s;
+    width: 100%;
+    height: 100%;
   }
   .redesSociales svg {
     fill: aliceblue;
@@ -321,8 +333,9 @@ footer {
     background-color: rgba(66, 66, 66, 0.4588235294);
     display: grid;
     grid-template-columns: auto auto;
-    margin: 5%;
+    margin: 8% 0% 8% 0%;
     justify-items: center;
+    width: 100%;
   }
   .fondoPaginaPalmares .libertadores {
     width: 160px;
@@ -331,7 +344,7 @@ footer {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    margin: 15%;
+    margin: 10%;
   }
   .fondoPaginaPalmares .libertadores img {
     border-radius: 15%;
@@ -351,17 +364,18 @@ footer {
   .fondoPaginaIdolos {
     background-color: rgba(66, 66, 66, 0.4588235294);
     padding: 30px;
-    margin: 5%;
-    border-radius: 50px;
+    margin: 8% 0% 8% 0%;
+    border-radius: 0%;
     display: flex;
     justify-content: center;
     align-content: center;
+    width: 100%;
   }
   .fondoPaginaIdolos .parrafoIdolos {
     background-color: #b92323;
     padding: 15px;
     margin: 8px;
-    border-radius: 25px;
+    border-radius: 0%;
     display: flex;
     flex-direction: row;
     height: 100%;
@@ -371,7 +385,7 @@ footer {
     width: 140px;
     height: 160px;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 0%;
   }
   .fondoPaginaIdolos .parrafoIdolos .tituloParrafo {
     display: flex;
@@ -392,7 +406,7 @@ footer {
     background-color: #742020;
     padding: 15px;
     margin: 8px;
-    border-radius: 25px;
+    border-radius: 0%;
     display: flex;
     flex-direction: row;
     height: 100%;
@@ -402,7 +416,7 @@ footer {
     width: 140px;
     height: 160px;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 0%;
   }
   .fondoPaginaIdolos .parrafoIdolos1 .tituloParrafo {
     display: flex;
@@ -427,7 +441,9 @@ footer {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: 5%;
+    margin: 8% 0% 8% 0%;
+    border-radius: 0%;
+    width: 100%;
   }
   .fondoPaginaHinchada .videos {
     display: grid;
@@ -457,13 +473,14 @@ footer {
 }
 @media (max-width: 576px) {
   header ul li {
-    font-size: 15px;
-    text-align: end;
+    font-size: 12px;
+    text-align: initial;
+    padding: 1px;
   }
   .logoPrincipal {
     display: flex;
-    flex-direction: initial;
-    margin: 5px 0px 5px 15px;
+    flex-direction: end;
+    margin: 5px 15px 5px 0px;
     display: flex;
   }
   .logoPrincipal img {
@@ -473,10 +490,12 @@ footer {
   .fondoPagina, .fondoPaginaPalmares, .fondoPaginaIdolos {
     background-color: rgba(66, 66, 66, 0.4588235294);
     padding: 25px;
-    margin: 8%;
+    margin: 10% 0% 10% 0%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    width: 100%;
+    border-radius: 0%;
   }
   .fondoPagina p, .fondoPaginaPalmares p, .fondoPaginaIdolos p {
     font-size: 10px;
@@ -499,6 +518,7 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 10px;
+    width: 100%;
   }
   .formulario p {
     font-size: 10px;
@@ -517,6 +537,8 @@ footer {
     align-items: center;
     gap: 8px;
     transition: 2s;
+    width: 100%;
+    height: 100%;
   }
   .redesSociales svg {
     fill: aliceblue;
@@ -531,8 +553,10 @@ footer {
     background-color: rgba(66, 66, 66, 0.4588235294);
     display: grid;
     grid-template-columns: auto auto;
-    margin: 8%;
+    margin: 10% 0% 10% 0%;
     justify-items: center;
+    width: 100%;
+    border-radius: 0%;
   }
   .fondoPaginaPalmares .libertadores {
     width: 100px;
@@ -561,17 +585,18 @@ footer {
   .fondoPaginaIdolos {
     background-color: rgba(66, 66, 66, 0.4588235294);
     padding: 25px;
-    margin: 8%;
-    border-radius: 50px;
+    margin: 10% 0% 10% 0%;
+    border-radius: 0%;
     display: flex;
     justify-content: center;
     align-content: center;
+    width: 100%;
   }
   .fondoPaginaIdolos .parrafoIdolos {
     background-color: #b92323;
     padding: 10px;
     margin: 5px;
-    border-radius: 25px;
+    border-radius: 0%;
     display: flex;
     flex-direction: row;
     height: 100%;
@@ -581,7 +606,7 @@ footer {
     width: 100px;
     height: 120px;
     padding: 5px;
-    border-radius: 15px;
+    border-radius: 0%;
   }
   .fondoPaginaIdolos .parrafoIdolos .tituloParrafo {
     display: flex;
@@ -602,7 +627,7 @@ footer {
     background-color: #742020;
     padding: 10px;
     margin: 5px;
-    border-radius: 25px;
+    border-radius: 0%;
     display: flex;
     flex-direction: row;
     height: 100%;
@@ -612,7 +637,7 @@ footer {
     width: 100px;
     height: 120px;
     padding: 5px;
-    border-radius: 15px;
+    border-radius: 0%;
   }
   .fondoPaginaIdolos .parrafoIdolos1 .tituloParrafo {
     display: flex;
@@ -637,7 +662,9 @@ footer {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: 8%;
+    margin: 10% 0% 10% 0%;
+    width: 100%;
+    border-radius: 0%;
   }
   .fondoPaginaHinchada .videos {
     display: grid;
